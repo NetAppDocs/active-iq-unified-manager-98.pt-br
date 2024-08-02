@@ -1,0 +1,22 @@
+---
+permalink: health-checker/task-send-a-support-bundle-to-technical-support.html 
+sidebar: sidebar 
+keywords:  
+summary: Esse fluxo de trabalho mostra como gerar, recuperar e enviar um pacote de suporte ao suporte técnico usando o console de manutenção do Unified Manager. Você deve enviar um pacote de suporte quando o problema que você tem exigir diagnóstico e solução de problemas mais detalhados do que uma mensagem AutoSupport fornece. 
+---
+= Envio de um pacote de suporte do Unified Manager para o suporte técnico
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Esse fluxo de trabalho mostra como gerar, recuperar e enviar um pacote de suporte ao suporte técnico usando o console de manutenção do Unified Manager. Você deve enviar um pacote de suporte quando o problema que você tem exigir diagnóstico e solução de problemas mais detalhados do que uma mensagem AutoSupport fornece.
+
+
+
+== Sobre esta tarefa
+
+O Unified Manager armazena no máximo dois pacotes de suporte gerados ao mesmo tempo.
+
+Para obter mais informações sobre o console de manutenção, consulte link:../config/concept-configuring-unified-manager.html["Configurando o Active IQ Unified Manager"].

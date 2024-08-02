@@ -1,0 +1,25 @@
+---
+permalink: health-checker/concept-backup-and-restore-using-netapp-snapshots.html 
+sidebar: sidebar 
+keywords:  
+summary: Um backup de Snapshot do NetApp cria uma imagem pontual do banco de dados e dos arquivos de configuração que você pode usar para restaurar em caso de falha do sistema ou perda de dados. Você agenda periodicamente um backup Snapshot para ser gravado em um volume em um dos clusters do ONTAP, para que você tenha sempre uma cópia atual. 
+---
+= Faça backup e restauração usando snapshots NetApp
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Um backup de Snapshot do NetApp cria uma imagem pontual do banco de dados e dos arquivos de configuração que você pode usar para restaurar em caso de falha do sistema ou perda de dados. Você agenda periodicamente um backup Snapshot para ser gravado em um volume em um dos clusters do ONTAP, para que você tenha sempre uma cópia atual.
+
+[NOTE]
+====
+Essa funcionalidade está disponível somente quando o Unified Manager é instalado em um servidor Red Hat Enterprise Linux ou CentOS Linux.
+
+====
+Os backups de snapshot demoram muito pouco tempo, geralmente apenas alguns minutos, e o banco de dados do Unified Manager está bloqueado por um período de tempo muito curto, portanto, há muito pouca interrupção na instalação. A imagem consome espaço de armazenamento mínimo e incorre em sobrecarga de desempenho insignificante, pois Registra apenas alterações nos arquivos desde que a última cópia Snapshot foi feita. Como o Snapshot é criado em um cluster do ONTAP, você pode aproveitar outros recursos do NetApp, como o SnapMirror, para criar proteção secundária, se necessário.
+
+Antes de iniciar uma operação de backup, o Unified Manager realiza uma verificação de integridade para verificar se o sistema de destino está disponível.
+
+Observe que você pode restaurar um backup Snapshot somente na mesma versão do Unified Manager. Por exemplo, se você criou um backup no Unified Manager 9,8, o backup só poderá ser restaurado em sistemas Unified Manager 9,8.

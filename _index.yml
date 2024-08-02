@@ -1,0 +1,67 @@
+---
+indexpage:
+  title: Documentação do Active IQ Unified Manager
+  summary: Com o Active IQ Unified Manager (Unified Manager e anteriormente OnCommand
+    Unified Manager), você monitora e gerencia a integridade e a performance dos sistemas
+    de storage da ONTAP em uma única interface. Esta biblioteca de documentação inclui
+    informações para a versão 9,8.
+  keywords: monitor, manage, health, performance, ONTAP storage systems, version 9.8.
+  lead: Com o Active IQ Unified Manager (Unified Manager e anteriormente OnCommand
+    Unified Manager), você monitora e gerencia a integridade e a performance dos sistemas
+    de storage da ONTAP em uma única interface. Esta biblioteca de documentação inclui
+    informações para a versão 9,8.
+  tiles:
+  - title: Comece agora
+    links:
+    - title: Notas de lançamento
+      url: "/release-notes.html"
+    - title: Instalação rápida do VMware vSphere
+      url: qsg-vapp.html
+    - title: Instalação rápida para Linux
+      url: qsg-linux.html
+    - title: Instalação rápida para Windows
+      url: qsg-windows.html
+  - title: Instalar e configurar o Unified Manager
+    links:
+    - title: Instalar e atualizar em sistemas VMware vSphere
+      url: install-vapp/concept-requirements-for-installing-unified-manager.html
+    - title: Instale e atualize em sistemas Linux
+      url: install-linux/concept-requirements-for-installing-unified-manager.html
+    - title: Instalar e atualizar em sistemas Windows
+      url: install-windows/concept-requirements-for-installing-unified-manager.html
+    - title: Configurar o Unified Manager
+      url: config/concept-configuring-unified-manager.html
+  - title: Monitoramento de desempenho
+    links:
+    - title: Limites de performance
+      url: performance-checker/concept-managing-performance-thresholds.html
+    - title: Desempenho do cluster
+      url: performance-checker/concept-monitoring-cluster-performance-from-the-dashboard.html
+    - title: Grupo de políticas de QoS
+      url: performance-checker/concept-managing-performance-using-qos-policy-group-information.html
+  - title: Monitoramento de proteção de dados
+    links:
+    - title: Configure a relação de proteção
+      url: "/data-protection/task-setting-up-protection-relationships-in-unified-manager.html"
+    - title: Executar failover e failback
+      url: "/data-protection/task-performing-a-protection-relationship-failover-and-failback.html"
+    - title: Gerenciar o relacionamento de proteção
+      url: "/data-protection/concept-managing-and-monitoring-protection-relationships.html"
+    - title: Gerar relatórios
+      url: "/reporting/concept-unified-manager-reporting.html"
+  - title: Use APIS REST
+    links:
+    - title: Comece agora
+      url: "/api-automation/concept-api-url-and-categories.html"
+    - title: Acesso à API REST e autenticação no Active IQ Unified Manager
+      url: "/api-automation/concept-rest-api-access-and-authentication-in-oncommand-api-services.html"
+    - title: Acesse APIs do ONTAP
+      url: "/api-automation/concept-gateway-apis.html"
+  - title: Mais recursos
+    links:
+    - title: Vídeos do Unified Manager
+      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
+    - title: Blogs do Unified Manager
+      url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish-date-mktg%20descending&layout=card&f:@facet-language-mktg=[English]
+    - title: Documentação para a versão mais recente do Active IQ Unified Manager
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager/index.html

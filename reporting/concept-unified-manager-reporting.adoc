@@ -1,0 +1,20 @@
+---
+permalink: reporting/concept-unified-manager-reporting.html 
+sidebar: sidebar 
+keywords:  
+summary: 'O Active IQ Unified Manager (antigo Gerenciador Unificado da OnCommand) oferece a capacidade de exibir, personalizar, baixar e agendar relatórios para seus sistemas de storage da ONTAP. Os relatórios podem fornecer detalhes sobre a capacidade, a integridade, a performance e as relações de proteção do sistema de storage.' 
+---
+= Relatórios do Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Active IQ Unified Manager (anteriormente conhecido como Gerenciador Unificado de OnCommand) permite visualizar, personalizar, baixar e agendar relatórios para seus sistemas de storage da ONTAP. Os relatórios podem fornecer detalhes sobre a capacidade, a integridade, a performance e as relações de proteção do sistema de storage.
+
+O novo recurso de agendamento e geração de relatórios do Unified Manager introduzido no Active IQ Unified Manager 9,6 substitui o mecanismo de relatórios anterior que foi desativado no Unified Manager versão 9,5.
+
+Os relatórios fornecem diferentes visualizações de sua rede, oferecendo inteligência acionável sobre dados de capacidade, integridade, desempenho e proteção. Você pode personalizar suas visualizações mostrando, ocultando e reorganizando colunas, filtrando dados, classificando dados e pesquisando os resultados. Você pode salvar exibições personalizadas para reutilização, baixá-las como relatórios e agendá-las como relatórios recorrentes para distribuir por e-mail.
+
+A partir do Active IQ Unified Manager 9,8, você pode baixar visualizações no formato Microsoft Excel e personalizá-las. Você pode usar recursos avançados do Excel, como sortes complexos, filtros em camadas, tabelas dinâmicas e gráficos. Quando estiver satisfeito com o relatório do Excel resultante, você pode fazer o upload do arquivo do Excel para uso sempre que o relatório for agendado e compartilhado.
